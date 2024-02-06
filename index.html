@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+		<meta name="description" content="Memilih uji statistika inferensial">
+		<meta name="keywords" content="SPSS, JASP, jamovi, analysis, statistics, ANOVA, regression, chi-square, vs, or">
+		<meta name="author" content="suwanda priyadi"
+        <title><b>Memilih Uji Statistika Inferensial (MUSI)</b></title><br><br><br>
+        <link rel="stylesheet" type="text/css" href = "stylesheet.css"/>
+        <script src = "main.js"></script>
+        <script src = "tree.js"></script>
+        <!-- Google Tag Manager :P -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PL3HGB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PL3HGB');</script>
+<!-- End Google Tag Manager -->
+
+    </head>
+    <body>
+        <main>
+            <div class = "question">
+                Question Text
+            </div>
+            <ul class = "answers">
+                <li data-answ-nr = "1" class="hide">
+                    <button >
+                        Answer1
+                    </button>
+                </li>
+                <li data-answ-nr = "2" class="hide">
+                    <button>
+                        Answer2
+                    </button>
+                </li>
+                <li data-answ-nr = "3" class="hide">
+                    <button>
+                        Answer3
+                    </button>
+                </li>
+            </ul>
+            <div class= "result hide">
+                Result Text
+            </div>
+
+            <div class= "navigation">
+                <button class = "back">Kembali</button>
+                <button class = "restart">Reset</button>
+            </div>
+
+        </main>
+		 <div class = "explanation">
+		<p>_ _ _</p>
+
+				<div class = 'tooltip'>variabel dependen
+					<span class = 'tooltiptext'>Variabel dependen adalah variabel yang variasi nilainya bisa dijelaskan atau dipengaruhi oleh variabel lain dalam suatu penelitian. Variabel dependen umumnya diberi simbol Y.<br>
+					Juga disebut sebagai 'variabel terikat' atau 'variabel kriteria'.
+            <br>
+            <br><i>Contoh:</i> Dalam sebuah penelitian yang bertujuan untuk menentukan apakah anak-anak yang minum susu setiap hari tinggi badannya meningkat,
+          'tinggi badan' adalah variabel dependen dalam penelitian ini.
+        </span>
+        | </div>
+
+        <div class = 'tooltip'>variabel independen
+          <span class = 'tooltiptext'>Variabel independen adalah variabel yang berkaitan dengan, berperan, atau berpengaruh terhadap variabel lain dalam suatu penelitian. Variabel independen umumnya diberi simbol X.<br>
+            Dalam penelitian eksperimental, merujuk pada variabel yang dimanipulasi (misalnya obat vs. plasebo).<br>
+            Dalam penelitian observasional, merujuk pada variabel yang dihipotesiskan berkaitan dengan atau berperan terhadap variabel dependen.<br>
+            Juga disebut sebagai 'variabel bebas' atau 'variabel prediktor'.
+            <br>
+            <br><i>Contoh:</i> Dalam sebuah penelitian yang bertujuan untuk menentukan apakah anak-anak yang minum susu setiap hari tinggi badannya meningkat,
+            '(jumlah) minum susu' adalah variabel independen dalam penelitian ini.
+        </span>
+        | </div>
+
+        <div class = 'tooltip'>variabel kontinu
+          <span class = 'tooltiptext'>Kontinu mengacu pada jenis skala pengukuran suatu variabel.<br>
+            Variabel disebut kontinu ketika skala pengukurannya (secara teoretis)
+            dapat dipecah ke dalam satuan yang lebih kecil dengan nilai yang tak terbatas.<br>
+            Juga disebut sebagai level 'interval' atau 'rasio'.<br>
+            <br>
+            <i>Contoh:</i> 'Panjang' dalam satuan meter, sentimeter, dst. atau 'waktu' dalam satuan menit, detik, dst. (namun, ketika Anda melakukan penskalaan ke bawah dengan cara mengelompokkan 'tinggi badan'
+            menjadi kategori (rendah, sedang, dan tinggi), maka ini disebut variabel 'kategorikal').
+        </span>
+        | </div>
+
+        <div class = 'tooltip'>variabel kategorikal
+          <span class = 'tooltiptext'> Kategorikal (juga disebut 'nominal') mengacu pada jenis skala pengukuran suatu variabel.<br>
+            Variabel disebut kategorikal ketika skala pengukurannya memiliki kategori atau hasil kategorisasi. Hal ini umum dilakukan dalam penelitian kualitatif.<br>
+            Skala pengukuran ordinal (nominal dengan urutan/'hierarki') termasuk dalam level kategorikal.
+            <br>
+            <br><i>Contoh:</i> Kewarganegaraan seseorang, jenis kelamin, tinggi badan yang dikelompokkan ke dalam kategori rendah, sedang, dan tinggi, dll.
+        </span>
+        | </div>
+
+        <div class = 'tooltip'>asumsi uji statistika parametrik
+          <span class = 'tooltiptext'>Distribusi data Anda juga berperan dalam menentukan uji statistika inferensial mana yang sesuai dengan penelitian Anda.<br>
+            Ada dua kelompok besar uji statistika inferensial (parametrik dan nonparametrik). SPSS, JASP, jamovi, dan sebagian besar perangkat lunak lainnya memiliki prosedur standar
+            untuk memeriksa 'asumsi uji statistika parametrik'.
+            <br>
+            <br><i>Contoh:</i> Jika data Anda tidak 'terdistribusi normal', maka kelompok uji statistika nonparametrik yang sesuai untuk penelitian Anda.
+            Uji statistika nonparametrik mana yang sesuai? (MUSI juga menentukan uji statistika nonparametrik berdasaran informasi data dan desain penelitian Anda.
+            Namun, terkadang juga ditemui bahwa tidak ada uji statistika nonparametrik yang sesuai dengan data atau desain penelitian Anda. Hal ini biasanya ditandai dengan 'satu' opsi jawaban).
+        </span>
+          </div>
+<!--
+        <div class = 'tooltip'>'.....'
+          <span class = 'tooltiptext'> .....
+            <br>
+            <br><i>Example:</i> .....
+        </span>
+        | </div>
+-->
+
+
+      </div>
+<br><br>
+<br><br>
+	    <br>
+
+<b>Bagaimana cara kerjanya?</b><br>
+<b>MUSI</b> berisi pertanyaan (pilihan ganda) mengenai data atau desain penelitian Anda. Setiap jawaban Anda mempengaruhi pertanyaan berikutnya. Pertanyaan terus diberikan (maksimal 7 pertanyaan) hingga informasi yang dikumpulkan cukup untuk memberikan saran uji statistika inferensial mana yang tepat untuk penelitian Anda.<br><br>
+
+
+<b>Berapa lama prosesnya?</b><br>
+Cepat, bahkan sangat cepat. <b>MUSI</b> berbasis JavaScript sehingga tidak memerlukan <i>pageload</i> di setiap pertanyaannya.<br><br>
+
+<b>Apa saja uji statistika inferensialnya?</b><br>
+"basic t-Test",
+"Biserial/Point-Biserial Correlation",
+"Mann-Whitney U Test",
+"Wilcoxon Matched-Pairs Test",
+"One Way independent ANOVA",
+"Kruskal-Wallis Test",
+"One Way Repeated Measures ANOVA",
+"Friedman’s ANOVA",
+"Pearson Correlation",
+"Regression",
+"Spearman Correlation,
+"Kendall’s Tau",
+"Independent Factorial ANOVA",
+"Multiple Regression",
+"Factorial Repeated Measures ANOVA",
+"Factorial Mixed ANOVA",
+"ANCOVA",
+"Pearson Chi-Square",
+"Likelihood Ratio",
+"Logistic Regression,
+"Loglinear Analysis",
+"MANOVA",
+"Factorial MANOVA",
+"MANCOVA"<br><br>
+	    <br>
+	   © Karya ini, "MUSI", diadaptasi dari <a href="https://stevenpeutz.com/which-statistical-test-to-use/">"Statistical Tests — When to use Which?"</a> karya Steven Peutz, di bawah lisensi <i>free and open source tools</i>. "MUSI" di bawah lisensi <a href="https://creativecommons.org/licenses/by/4.0/deed.id">"CC BY 4.0"</a> karya Suwanda Priyadi.
+      <!--
+          Types of (dependent) variables
+					With type of variable we do not mean independent or dependent. Here we mean the 'level of measurement'.
+					These levels ('nominal', 'ordinal', 'interval' and 'ratio') can be clustered to either 'Continous' (interval and ratio) or 'Categorical' (nominal and ordinal).
+   -->
+      	</div>
+
+    </body>
+</html>

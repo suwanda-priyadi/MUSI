@@ -1,0 +1,1 @@
+This work, "MUSI", is adapted from "**https://stevenpeutz.com/which-statistical-test-to-use/**" by Steven Peutz, used under free and open source tools. "MUSI" is licensed under CC BY 4.0 by Suwanda Priyadi.
